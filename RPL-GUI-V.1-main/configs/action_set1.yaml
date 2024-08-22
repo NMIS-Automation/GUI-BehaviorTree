@@ -1,0 +1,45 @@
+Nne:
+  checks:
+  - ''
+  cmmd: joint
+  custom: null
+  pose_info:
+    Cpose:
+    - -0.4763333316933763
+    - 0.1619691854744354
+    - 0.8532185779219998
+    - !!python/object/apply:numpy.core.multiarray.scalar
+      - &id001 !!python/object/apply:numpy.dtype
+        args:
+        - f8
+        - false
+        - true
+        state: !!python/tuple
+        - 3
+        - <
+        - null
+        - null
+        - null
+        - -1
+        - -1
+        - 0
+      - !!binary |
+        Rmqx+goQ9r8=
+    - !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        Qu8Wk9kT/r8=
+    - !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        GGhDZh9+8D8=
+    Jpose:
+    - -0.75
+    - -0.75
+    - -0.75
+    - -0.75
+    - -0.75
+    - -0.75
+    frame: 0base
+    name: pose_0
+    type: joint

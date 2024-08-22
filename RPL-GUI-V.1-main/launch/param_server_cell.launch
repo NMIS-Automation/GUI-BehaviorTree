@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- TODO: change naming of cells to be more flexible -->
+  <!-- UNCDOMMENT<param name="cell_description" textfile="$(find table_server)/meshes/rpl_cell.urdf"/>
+    <node name="table_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher">
+    	<remap from="robot_description" to="cell_description" />
+    </node> UNCOMMENT-->
+  <arg name="sim" default="true"/>
+  <node name="joint_parameter_server_custom" pkg="rpl_gui_1" type="joint_server.py">
+    <param name="sim" type="bool" value="$(arg sim)"/>
+  </node>
+</launch>
